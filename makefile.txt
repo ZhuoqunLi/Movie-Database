@@ -1,0 +1,26 @@
+CC=gcc
+
+Main = main
+
+HDRS=main.cpp LinkedList.o Node.o Movie.o Actor.o Object.o LinkedList.h Movie.h Actor.h
+
+OBJS=LinkedList.o Node.o Movie.o Actor.o Object.o main.o
+
+program:LinkedList.o Node.o Movie.o Actor.o Object.o main.o
+	$(CC) -o main LinkedList.o Node.o Movie.o Actor.o Object.o main.o
+$main.o: $(HDRS)
+	$(CC) -c $< -o $@
+$LinkedList.o: LinkedList.cpp LinkedList.h Node.o Object.o Object.h
+	$(CC) -c $< -o $@
+$Node.o: Node.cpp Node.h Actor.o Object.o Object.h
+	$(CC) -c $< -o $@
+$Movie.o: Movie.cpp Movie.h Object.o Object.h
+	$(CC) -c $< -o $@
+$Actor.o: Actor.cpp Actor.h Object.o Object.h
+	$(CC) -c $< -o $@
+$Object.o: Object.cpp Object.h
+	$(CC) -c $< -o $@
+ 
+clean:
+	-rm -f LinkedList.o Node.o Movie.o Actor.o Object.o main.o
+	-rm -f main

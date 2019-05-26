@@ -1,0 +1,39 @@
+Movies:
+Neighbours (1952£©
+2046 (2004£© starring Tony Leung (1962) M
+Chungking Express (1994£© starring Tony Leung (1962) M
+Infernal Affairs (2002£© starring Tony Leung (1962) M
+Fast Cheap & Out of Control (1997£©
+Volver (2006£© starring Penelope Cruz (1974) F
+Dogville (2003£© starring Nicole Kidman (1967) F
+To Die For (1995£© starring Nicole Kidman (1967) F
+Indiana Jones and the Temple of Doom (1984£© starring Harrison Ford (1942) M
+Manufacturing Consent (1992£©
+Chinatown (1974£© starring Jack Nicholson (1937) M
+The Others (2001£© starring Nicole Kidman (1967) F
+The Shining (1980£© starring Jack Nicholson (1937) M
+
+
+
+Female acotrs:
+Penelope Cruz (1974)
+     Volver(2006)
+Madeline Kahn (1952)
+Nicole Kidman (1967)
+     The Others(2001)
+     To Die For(1995)
+     Dogville(2003)
+Julianne Nicholson (1971)
+
+Male acotrs:
+Luis Guzman (1956)
+Tony Danza (1951)
+Tony Leung (1962)
+     Infernal Affairs(2002)
+     Chungking Express(1994)
+     2046(2004)
+Harrison Ford (1942)
+     Indiana Jones and the Temple of Doom(1984)
+Jack Nicholson (1937)
+     The Shining(1980)
+     Chinatown(1974)
